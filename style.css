@@ -1,0 +1,107 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+
+  min-height: 100%;
+}
+  
+body {
+  font-size: 14pt;
+  font-family: "Helvetica LT Std", Helvetica, Arial, sans-serif;
+  margin: 0;
+  height: 768px;
+  width: 1024px;
+}
+
+#wrapper {
+  background: linear-gradient(#ffffff, #7f7f7f);
+  float: left;
+  padding: 50px;
+  padding-right: 49px; /* The right panel is slightly off if this is 50px; */
+  position: relative;
+  border: 1px solid #3f3f3f;
+}
+
+header {
+  margin-left: -1px;
+  margin-top: -13px;
+  margin-bottom: 125px;
+  display: block;
+}
+
+h1 {
+  font-size:  39pt;
+  height: 1em;
+  color: #fe8c51; /* fallback for non-webkit browsers */
+  letter-spacing: -0.3px;
+}
+
+h1 div {
+  background: -webkit-linear-gradient(#febd98, #f25600);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: absolute;
+}
+
+h1:after{
+  content: "This is the title. It's important!";
+  text-shadow: 6px 9px 12px #bfbfbf;
+  color: transparent;
+}
+
+#main {
+  width: 562px;
+  float: left;
+  position: relative;
+}
+
+ul {
+  padding-left: 0;
+  list-style-position: inside;
+  list-style-type: none;
+  margin-bottom: 32px;
+}
+
+ul li {
+  padding-bottom: 11px;
+}
+
+ul li span {
+  font-size: 22pt;
+  font-weight: bold;
+}
+
+ul li span:before {
+  content: "•";
+  font-size: 75%;
+  padding-right: 0.8em;
+  padding-left: 0.1em;
+}
+
+#body-text {
+  color: #606060;
+  font-weight: lighter;
+}
+
+#body-text p {
+  margin-bottom: 0.6em;
+}
+
+#side-panel {
+  width: 298px;
+  height: 500px;
+  float: left;
+  background: linear-gradient(#000000, #ffffff);
+  border: 1px solid black; 
+  line-height: 500px;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  margin-left: 61px;
+  margin-top: 1px;
+}
+
+#map-canvas {height: 500px; width: 923px; margin: 0; padding: 0; display: none;}
