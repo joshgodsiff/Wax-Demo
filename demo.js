@@ -18,7 +18,6 @@ function initialize() {
       var mapOptions = {
         center: result[0].geometry.location,
         zoom: 8,
-        disableDefaultUI: true
       };
       
       var map = new google.maps.Map(document.getElementById('map-canvas'),
